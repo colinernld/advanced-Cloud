@@ -30,8 +30,9 @@ Late = delivered more than 30 minutes after the order.
 
 - **The number that proves it works:** share of late deliveries. Today **about 1 in 8** (13%), and
   **more than 1 in 4** in the evening (27%). Target: **fewer than 1 in 20** (under 5%), even in the evening.
-- **The guardrail (we are not doing harm):** no hour gets worse than today. Watch out: the evening needs up to
-  45 couriers on duty at once (today 30), so evening shifts. To check in the product.
+- **The guardrail (we are not doing harm):** no hour gets clearly worse than today. Our first test breaks it at
+  lunch (0% to 5-6% late): that is what the forecast must fix. Also, the evening needs up to 45 couriers on
+  duty at once (today 30), so evening shifts. To check in the product.
 - **How we show it moved:** the same simulation and the same orders twice, once with today's schedule and
   once with ours. First test already run, by hand (not a forecast yet):
 
