@@ -1,6 +1,6 @@
 # Business case (one page, send it Mon 16 Nov, before session 3)
 
-Group: ........   Members: Ariane Boulet, Teo Desquatreveux, Coline Renauld, Evaluna Barth
+Group: 8, Members: Ariane Boulet, Teo Desquatreveux, Coline Renauld, Evaluna Barth
 
 One page, short lines, not graded. Keep it at the root of your repository: it stays alive until the oral (the
 session log at the bottom).
