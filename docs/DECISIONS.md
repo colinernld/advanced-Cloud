@@ -52,6 +52,20 @@ A forecast per hour should add couriers there. Also: it needs up to 45 couriers 
 more people than today's 30. Limits: a simulation made by the course, no courier shifts or breaks, no margin of
 error computed.
 
+Why a late delivery matters (history file `world/data/customers.json`, not the simulation; script
+`packaged_app/experiments/complaints_vs_late.py`, 17 Nov):
+
+| What we measured | Value | Where and how |
+| --- | --- | --- |
+| Orders, average basket | 33,364 orders, 34.3 EUR | script, first line |
+| Late orders (over 30 min) | 5,695 (17.1%) | script |
+| Complaints, and those about a late delivery | 1,112, of which 686 (62%) | script |
+| Late-delivery complaints on an order really late | 686 of 686 | script |
+| Complaint rate, late order against on-time order | 12.6% against 1.4% | script, last two lines |
+
+Careful: the history says 17.1% late, the simulation (first table) says 13.2%. They are two different sources.
+We have no data on courier pay, the cost of a complaint or the margin: any euro figure will be an assumption.
+
 ### Module 2: ........
 
 | What we measured | Before | After | Where and how | Date |

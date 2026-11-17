@@ -19,6 +19,8 @@ in each dark store, hour by hour, for the next day.
 - Today every store has 10 couriers all day. In the evening, orders wait for a free courier: in the
   simulation, **13% of deliveries are late overall and 27% between 18:00 and 21:00**, about 0% at lunch.
 - The big store suffers most: with the same 10 couriers, **S3 is late 19% of the time, S1 only 5%**.
+- Late deliveries are the first cause of complaints (686 of 1,112): about 1 late delivery in 8 ends in a
+  complaint, against 1 in 70 when on time (history of 33,364 orders).
 - A late delivery puts a customer at risk: in lab 1, Inès was a good customer until a delivery 28 minutes
   late and a complaint; the churn model now sees her "at risk".
 - The decision that changes: how many couriers per store and per hour. Who decides: the operations manager,
@@ -72,7 +74,7 @@ or age) · what you change in your plan, if anything.
 
 | Session | Worth bringing in | To watch out for | What we change |
 | --- | --- | --- | --- |
-| S3 | | | |
+| S3 | The dashboard counts broken promises per zone: our KPI (late over 30 min) can be read there | The forecast ages: an unusual evening (match, strike, rain) makes the usual pattern wrong, quietly | If the forecast is missing or old, we fall back on last week's schedule for the same day |
 | S4 | | | |
 | S5 | | | |
 | S6 | | | |
